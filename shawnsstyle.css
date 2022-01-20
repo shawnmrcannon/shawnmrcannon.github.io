@@ -1,0 +1,117 @@
+body{
+  
+  background-image: linear-gradient(to bottom right, blue, white);;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+/*navbar*/
+.navbar
+{
+  background-color: rgb(255, 255, 255);
+  border-bottom: brown;
+  border-style:groove;
+  padding: 10px;
+  margin: 20px;
+  object-position: top;
+  margin: 0 auto 30px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  
+
+
+  
+}
+.navbar ol{
+  list-style-type: none;
+  padding: 0%;
+  float: center;
+}
+
+.navbar{
+  font: bold;
+  padding: 5px;
+  margin:auto;
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+  
+}
+/*main pg*/
+#main{
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(231, 231, 236, 0.74);
+  width: 800px;
+  height: fit-content;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 20px ridge black;
+  overflow-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;  
+}
+#main img{
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+}
+/* this is psudo script recipe pg*/
+#Recipe{
+  Border: 10px;
+  padding: 10px;
+  
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: fit-content;
+  border: 20px ridge black;
+  overflow-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ #recipe-box {
+    
+  text-align: center;
+  align-content: center;
+   max-width: 850px;
+   border: 10px double #f00;
+   padding: 5px;
+   margin: 2px;
+   margin: 5% 0;
+   box-sizing: content-box;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+}
+
+#recipe-box img{
+
+height:200px;
+width:200px;
+object-position: center;
+object-fit: contain;
+vertical-align: auto;
+
+
+}
+
+#recipeStory {
+  
+  border: black 2px solid;
+  background-color: rgb(129, 127, 121);
+  font-family: Arial, Helvetica, sans-serif;
+  width: 750px;
+  font-weight: bolder;
+  padding: 0px;
+  margin: 6px;
+
+}
+
+
