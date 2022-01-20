@@ -1,10 +1,15 @@
-
+body{
+  background-image: url(images/bckgrnd3.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+}
 
 
 /*main page */
 #main {
+  background-color: ivory;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 20px 20px;  
+  padding: 1rem 1rem 0px 0px;  
   width: 800px;
   display: flex;
   flex-flow: column wrap;
@@ -15,29 +20,19 @@
   border-top: rgba(244, 248, 4, 0.404) ridge 2px;
 
 }
-html::before {
+#main::before {
     content: " ";
     display: block;
     height: 100px;
     width: 100%;
-    margin: 1rem;
+    margin: 10px;
     background-image: url(images/bckgrnd2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     
-    
-
-    
-    
   }
-#main img{
-  height: 200px;
-  width: 200px;
-  padding: 0px;
-  margin: 0px;
-  
-}
+
 
 /* nav bar */
 .navbar{
@@ -87,12 +82,13 @@ html::before {
 
 /* recipe page */
 #Recipe {
+        background-color: ivory;
         Border: 10px;
         padding: 10px;
         width: 1000px;
         align-items: center;
         justify-content: center;
-        width: 800px;
+        width: 850px;
         overflow-wrap: break-word;
         margin-left: auto;
         margin-right: auto;
@@ -101,18 +97,19 @@ html::before {
        
 }
 #recipe-box {
+    
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     display: inline-block;
     justify-content: space-between 5px ;
     height: 500px;
-    width: 800px;
+    width: 850px;
     
     overflow-x: hidden;
     overflow-x: scroll;
     border: rgba(0, 0, 0, 0.945) ridge 3px;
-    box-shadow: 0 0 0 1rem rgba(244, 248, 4, 0.404);
+    box-shadow: 0 0 0 5px rgba(244, 248, 4, 0.404);
     overflow-wrap: break-word ;
   }
 
@@ -152,3 +149,47 @@ html::before {
       
 
   }
+
+  /* rev page */
+   #Rev-box p{
+     float: left;
+     width: 250px;
+     font-size: larger;
+     margin:auto;
+     padding: 10 px;
+     
+   }
+   #Rev-box img{
+     float: right;
+     margin-left: 1rem;
+     margin-right: 1rem;
+     margin-top: 0px;
+     padding: 10px;
+   }
+   #rev-box-two p{
+    float: right;
+    width: 250px;
+    font-size: larger;
+    margin:auto;
+    padding: 10 px;
+   }
+   #rev-box-two img{
+    float: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0px;
+    padding: 10px;
+    width: 450px;
+
+
+   }
+   #rev-box-three {
+    width: 800px;
+    font: larger;
+  }
+  
+   #rev-box-three img {
+     padding: 10px;
+     margin: 0px;
+     width: 800px;
+   }
