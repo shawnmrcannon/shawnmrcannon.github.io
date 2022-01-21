@@ -1,0 +1,211 @@
+@media screen and (min-width: 900px) {
+  article {
+    padding: 1rem 3rem;
+    display: flex;
+  }
+}
+
+
+body{
+  background-image: url(images/bckgrnd3.jpg);
+  background-attachment: fixed;
+  background-size: contain;
+}
+
+
+
+/*main page */
+#main {
+  background-color: ivory;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem 1rem 0px 0px;  
+  width: 800px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  border-top: rgba(244, 248, 4, 0.404) ridge 2px;
+
+}
+#main::before {
+    content: " ";
+    display: block;
+    height: 100px;
+    width: 100%;
+    margin: 10px;
+    background-image: url(images/bckgrnd2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+
+/* nav bar */
+.navbar{
+    
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+.navbar li{
+    
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+
+}
+
+/* button */
+.navButton {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(243, 247, 10);
+    background-image: linear-gradient(to top left,
+                                      rgb(253, 253, 253),
+                                      rgba(8, 8, 1, 0.2) 30%,
+                                      rgb(255, 255, 255));
+    box-shadow: inset 2px 2px 3px rgb(0, 0, 0),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.navButton:hover {
+    background-color: rgba(38, 158, 14, 0.87);
+}
+
+.navButton:active {
+    box-shadow: inset -2px -2px 3px rgb(255, 255, 255),
+                inset 2px 2px 3px rgba(19, 18, 18, 0.89);
+}
+
+/* recipe page */
+#Recipe {
+        background-color: ivory;
+        Border: 10px;
+        padding: 10px;
+        align-items: center;
+        width: 850px;
+        overflow-wrap: break-word;
+        margin-left: auto;
+        margin-right: auto;
+        border-top: rgba(244, 248, 4, 0.404) ridge 2px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+}
+#recipe-box {
+    
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: inline-block;
+    justify-content: space-between 5px ;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-x: scroll;
+    border: rgba(0, 0, 0, 0.945) ridge 3px;
+    box-shadow: 0 0 0 5px rgba(244, 248, 4, 0.404);
+    overflow-wrap: break-word ;
+  }
+
+
+
+#recipe-box ol {
+    display: inline-flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+  
+  #recipe-box img {
+  
+  height:300px;
+  width:300px;
+  object-fit: contain;
+  vertical-align: baseline;
+  
+  }
+  #recipe-box p{
+      padding: 10px;
+      margin: 0;
+  }
+
+  #recipeStory {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+
+  #ingredients-box,ul{
+    list-style: none;
+  }
+
+  /* rev page */
+   #Rev-box p{
+     float: left;
+     width: 250px;
+     font-size: larger;
+     margin:auto;
+     padding: 10px;
+   }
+   #Rev-box img{
+     float: right;
+     margin-left: 1rem;
+     margin-right: 1rem;
+     margin-top: 0px;
+     padding: 10px;
+     max-height: 800px;
+   }
+   #rev-box-two p{
+    float: right;
+    width: 250px;
+    font-size: larger;
+    margin:auto;
+    padding: 10px;
+   }
+   #rev-box-two img{
+    float: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0px;
+    padding: 10px;
+    width: 450px;
+
+
+   }
+   #rev-box-three {
+    width: 750px;
+    font: larger;
+    font-size: larger;
+    margin:auto;
+    padding: 10px;
+   }
+  
+  
+   #rev-box-three img {
+     padding: auto;
+     margin: auto;
+     width: 750px;
+   }
+footer{
+  color: yellow;
+  font-size: small;
+}
