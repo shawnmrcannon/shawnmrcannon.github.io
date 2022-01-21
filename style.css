@@ -156,8 +156,7 @@ body{
      width: 250px;
      font-size: larger;
      margin:auto;
-     padding: 10 px;
-     
+     padding: 10px;
    }
    #Rev-box img{
      float: right;
@@ -165,13 +164,14 @@ body{
      margin-right: 1rem;
      margin-top: 0px;
      padding: 10px;
+     max-height: 800px;
    }
    #rev-box-two p{
     float: right;
     width: 250px;
     font-size: larger;
     margin:auto;
-    padding: 10 px;
+    padding: 10px;
    }
    #rev-box-two img{
     float: left;
@@ -184,13 +184,17 @@ body{
 
    }
    #rev-box-three {
-    width: 800px;
+    width: 750px;
     font: larger;
-  }
+    font-size: larger;
+    margin:auto;
+    padding: 10px;
+   }
+  
   
    #rev-box-three img {
-     padding: 10px;
-     margin: 5px;
+     padding: auto;
+     margin: auto;
      width: 750px;
    }
 footer{
