@@ -1,8 +1,17 @@
+@media screen and (min-width: 900px) {
+  article {
+    padding: 1rem 3rem;
+    display: flex;
+  }
+}
+
+
 body{
   background-image: url(images/bckgrnd3.jpg);
   background-attachment: fixed;
   background-size: contain;
 }
+
 
 
 /*main page */
