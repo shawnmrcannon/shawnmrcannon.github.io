@@ -1,0 +1,5 @@
+{
+    "liveServer.settings.port": 5501,
+    "appService.defaultWebAppToDeploy": "/subscriptions/2e0d8e13-d7af-499e-ad32-c07b62ce3444/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/ShawnTheRayCannon",
+    "appService.deploySubpath": "."
+}
